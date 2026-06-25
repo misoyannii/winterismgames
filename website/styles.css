@@ -1,0 +1,27 @@
+/* ===== Page Styling ===== */
+
+body {
+    background-color: #000d1a;
+    color: #ebf6ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ===== Hide Text Cursor ===== */
+
+input[type="text"] {
+    caret-color: transparent;
+}
+
+/* ===== Custom Font ===== */
+
+@font-face {
+    font-family: 'CenturyGothic';
+    src: url("CenturyGothic/GOTHICB.TTF") format('truetype');
+}
+
+/* ===== Header Styling ===== */
+
+h1,
+h2 {
+    font-family: 'CenturyGothic', serif;
+}
